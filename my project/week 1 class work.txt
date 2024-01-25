@@ -1,0 +1,14 @@
+REQUIREMENTS
+Home page
+About page
+Product page
+order page
+
+Home Page: The home page should have the following features- navigation to other pages, link to your socials, hero banner for the product you sell, hero text describing the product/services, main, footer
+
+About page: tell us about your products and services, stating your vision and mission statement
+
+Product page: the product page should have at least 6 cards.
+The product card should have the product title, description, price and buy button.
+
+Order page: the order page should have a form to place order

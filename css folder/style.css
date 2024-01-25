@@ -1,0 +1,80 @@
+body{
+    background-color: aquamarine;
+}
+
+/* selectors */
+
+/* universal selectors... use asterik (*), it will select everything in your page  */
+*{
+    box-sizing: border-box;
+}
+
+/* selector by tagname e.g body, p, img, div, etc */
+p{
+    background-color: rgb(169, 37, 11);
+    color: aliceblue;
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 100%; 
+    height: 400px;
+}
+
+/* selector by class/classname.... this is different from tagname.. use dot(.) before the classname */
+.para2{
+    background-color: chocolate;
+    width: 50%;
+    height: 400px;
+    font-size: 1rem;
+    font-family:cursive
+}
+.img1{
+    width: 50%;
+    height: 400px;
+}
+.sec1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+li{
+    color: rgb(0, 0, 0);
+}
+/* id... to call an id it must be preceded with # */
+#my-id{
+    color: blue;
+}
+/* group selection a, b, c, p, and so on */
+
+/* combinator selector */
+
+.dada > p{
+    background-color: blue;
+}
+
+/* psuedo selector */
+.dada :nth-child(4){
+    background-color: rgb(18, 175, 169);
+}
+/* .dodo > h1{
+    background-color: darkslategrey;
+} */
+.dada :nth-child(5){
+    background-color: purple;
+}
+
+.dada .para3{
+    background-color: tomato;
+}
+
+/* background image */
+.dodo{
+    width: 100%;
+    height: 600px;
+    background-image: url(./image/nissan-gt-r-nismo-car-road-4k_1698705593-2048x1280.jpg);
+    background-repeat: no-repeat;
+}

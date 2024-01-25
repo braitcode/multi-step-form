@@ -1,0 +1,162 @@
+
+
+/* Media Query */
+/* Media query has two important approach, these are;
+- mobile first approach(starting from lowest breakpoint) max-width 375px, 678px, 768px,  992px
+e.g 375px - 678px, 679px - 768px, 769px - 992px, 
+ - desktop first approach(starting from highest breakpoint)
+*/
+
+/* Mobile First */
+/* @media(max-width: 678px){
+    body{
+        background-color: blueviolet !important;
+    }   
+}
+@media(min-width: 679px) and (max-width: 768px){
+    body{
+        background-color: yellow !important;
+    }
+}
+@media(min-width: 769px) and (max-width: 992px){
+    body{
+        background-color: red !important;
+    }
+}
+@media(min-width: 993px){
+    body{
+        background-color: green !important;
+    }
+} */
+
+
+
+/* Desktop First
+@media(max-width: 992px){
+    body{
+        background-color: blue !important;
+    }
+} */
+
+
+/* CSS Grid */
+.sec{
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.part1{
+    background-color: aliceblue;
+    height: 300px;
+    display: grid;
+    gap: 4px;
+    
+    
+}
+.one{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.two{
+    /* background-color: yellow; */
+    background-image: url(./porsche-935-4k_1660678547-2048x1365.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two h2{
+    color: rgb(235, 8, 8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two button{
+    color: wheat;
+    text-align: center;
+    padding: 15px 10px;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+.two button:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.two img{
+    width: 100%;
+    height: 100%;
+}
+.three{
+    background-color: blueviolet;
+}
+
+.three img{
+    width: 100%;
+    height: 100%;
+}
+
+.part2{
+    height: 150px;
+}
+
+.part2:hover{
+    border: 1px solid red;
+    opacity: 0.6;
+    cursor: pointer;
+    scale: 1;
+}
+
+.tobi{
+     background-color: aquamarine;
+}
+
+.tobi img{
+    width: 100%;
+    height: 100%;
+}
+
+.brighto{
+    background-color: greenyellow;
+}
+
+.brighto img{
+    width: 100%;
+    height: 100%;
+}
+
+.peace{
+    background-color: rgb(7, 132, 103);
+}
+
+.peace img{
+    width: 100%;
+    height: 100%;
+}
+
+.ayo{
+    background-color: gold;
+}
+
+.ayo img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 600px){
+    .sec{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: wheat;
+}
+
+.head1 > h3{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px
+}
+.para > p2{
+    font-size: 1.5rem;
+}
+.toplogo .svg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.img1{
+    width: 20%;
+    height: 40px;
+    display: flex;
+}
+.foot{
+    display: flex;
+    justify-items: center;
+}
